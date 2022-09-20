@@ -1,9 +1,12 @@
-#include <iostream> // header in standard library
+#include <iostream>
+#include "GroupNames.h"
 
-using namespace N;
 using namespace std;
 
-void main::do_something()
+int main ()
 {
-    
+    GroupNames t("README.md");
+    t.printNames();
+    cout << "\n";
+    return 0;
 }
